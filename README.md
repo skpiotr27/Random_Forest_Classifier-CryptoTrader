@@ -99,7 +99,7 @@ python saving_csv.py
 python random_forest.py
 ```
 #### 3. Fetch data for backtest.
-For example: May 2023
+For example: May 2023 
 ```
 symbol = 'BTCUSDT'
 interval = Client.KLINE_INTERVAL_1MINUTE
