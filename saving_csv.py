@@ -17,5 +17,5 @@ klines = client.get_historical_klines(symbol, interval, start_time, end_time)
 # Invoking the get_df function that formats the df and adds AT indicators.
 df = get_df(klines)
 
-# Saving the file to csv.
+# Saving the file to csv. 
 df.to_csv('data_set.csv', index_label='Index')
