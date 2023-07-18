@@ -37,7 +37,7 @@ y = df["Target"]
 # Splitting the dataset into training and testing data.
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2,random_state=42)
 
-# Create model RFC
+# Create model RFC 
 model  = RandomForestClassifier(n_estimators=100,max_depth=None,min_samples_split=10,min_samples_leaf=20,verbose=1,warm_start=True,n_jobs=-1,random_state=42,min_impurity_decrease=0,criterion="entropy")
 
 # Training the model and generating predictions for the test and training sets.
