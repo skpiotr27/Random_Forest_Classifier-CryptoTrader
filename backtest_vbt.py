@@ -37,7 +37,6 @@ df["preds"] = model.predict(df[predictors])
 accuracy = accuracy_score(df["Target"], df["preds"])
 print("Accuracy model:", accuracy)
 
-
 # Copy value of df["Close"] to price
 price = df[["Close"]].copy()
 
