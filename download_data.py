@@ -104,5 +104,4 @@ def get_df(klines):
     # Changing inf values to 1 or -1 and removing NaN values.
     df = df.replace({-np.inf: -1, np.inf: 1})
     df = df.dropna()
-
     return df
